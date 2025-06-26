@@ -53,7 +53,7 @@ const Game = () => {
         alignItems: 'center',
       }}
     >
-      {/* 🎥 Vidéo en fond */}
+      {/*Vidéo en fond */}
       <video
         src={ClairObs}
         autoPlay
@@ -72,7 +72,7 @@ const Game = () => {
         }}
       />
 
-      {/* 🎮 Jeu ou bouton de lancement */}
+      {/*Jeu*/}
       {!launched ? (
         <div
           onClick={handleLaunchGame}

@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+Front-end (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    ✅ Utilisation de React Router DOM avec plusieurs pages (/, /login, /register, /dashboard, /game, /scores)
 
-## Available Scripts
+    ✅ Site 100 % responsive (mobile-first), avec une structure CSS propre
 
-In the project directory, you can run:
+    ✅ Système d’authentification complet (register/login avec JWT)
 
-### `npm start`
+    ✅ Routes protégées avec ProtectedRoute selon l’état d’auth
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    ✅ Style en CSS classique uniquement (aucune librairie)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    ✅ Structure du code modulaire et claire (dossiers : components, context, hooks, pages, styles)
 
-### `npm test`
+    ✅ Code en ES6+ (arrow functions, destructuring, hooks, etc.)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ✅ Notifications et retours utilisateur (messages d’erreur, succès, gestion des erreurs API)
 
-### `npm run build`
+    ✅ Loader d’attente pendant les appels API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ✅ State global via Context API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ✅ Hook personnalisé useAuth() pour centraliser l’état utilisateur
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ✅ Thème clair / sombre, toggle via ThemeSwitch + gestion centralisée des couleurs
 
-### `npm run eject`
+    ✅ Animations CSS sur transitions de pages et boutons
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ✅ Multilingue avec react-i18next (Français / Anglais)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Back-end (API Express + MongoDB)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ✅ API RESTful avec routes CRUD pour utilisateurs et scores
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ✅ Structure MVC respectée : routes/, controllers/, models/, middlewares/
 
-## Learn More
+    ✅ Système d’authentification avec bcrypt et JWT
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ✅ Routes protégées via middleware JWT (verifyToken.js)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ✅ Base de données MongoDB connectée via Mongoose
 
-### Code Splitting
+    ✅ Schemas bien définis (User, Score) avec champs obligatoires et typés (String, Number, etc.)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ✅ Validation des champs avec Joi
 
-### Analyzing the Bundle Size
+    ✅ Codes HTTP corrects renvoyés (200, 400, 401, 403, etc.)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Liste des bonus réalisés
 
-### Making a Progressive Web App
+    🎮 Intégration d’un jeu Unity WebGL dans l’application React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    🧠 Sécurisation du token uniquement en mémoire (meilleure protection contre XSS)
 
-### Advanced Configuration
+    🎯 Gestion des scores utilisateurs personnalisés dans la base (pas implémenté, mais disponible dans le code)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    💡 Structuration du projet pensée pour évoluer facilement (ajout de jeux, classement global…)
