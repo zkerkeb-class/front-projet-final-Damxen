@@ -50,8 +50,6 @@ Liste des bonus réalisés
 
     🎮 Intégration d’un jeu Unity WebGL dans l’application React
 
-    🧠 Sécurisation du token uniquement en mémoire (meilleure protection contre XSS)
-
     🎯 Gestion des scores utilisateurs personnalisés dans la base (pas implémenté, mais disponible dans le code)
 
     💡 Structuration du projet pensée pour évoluer facilement (ajout de jeux, classement global…)
