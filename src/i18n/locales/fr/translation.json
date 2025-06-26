@@ -1,0 +1,32 @@
+{
+  "home": {
+    "welcome": "Bienvenue dans",
+    "subtitle": "Explorez, jouez, survivez."
+  },
+  "login": {
+    "title": "Connexion",
+    "email": "Adresse email",
+    "password": "Mot de passe",
+    "button": "Se connecter",
+    "loading": "Connexion...",
+    "success": "Connexion réussie !",
+    "error": "Erreur lors de la connexion"
+  },
+  "register": {
+    "title": "Créer un compte",
+    "email": "Adresse email",
+    "emailPlaceholder": "Adresse mail",
+    "username": "Nom d’utilisateur",
+    "usernamePlaceholder": "Nom d’utilisateur",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "confirmPasswordPlaceholder": "Confirmer le mot de passe",
+    "button": "Créer un compte",
+    "loading": "Création en cours...",
+    "passwordMismatch": "Les mots de passe ne correspondent pas",
+    "success": "Inscription réussie ! Connecte-toi.",
+    "error": "Erreur lors de l’inscription",
+    "unknownError": "Erreur inconnue"
+  }
+}

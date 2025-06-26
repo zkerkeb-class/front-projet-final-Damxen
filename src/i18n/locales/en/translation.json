@@ -1,0 +1,32 @@
+{
+  "home": {
+    "welcome": "Welcome to",
+    "subtitle": "Explore, play, survive."
+  },
+  "login": {
+    "title": "Login",
+    "email": "Email address",
+    "password": "Password",
+    "button": "Log in",
+    "loading": "Logging in...",
+    "success": "Login successful!",
+    "error": "Login failed"
+  },
+  "register": {
+    "title": "Create an account",
+    "email": "Email address",
+    "emailPlaceholder": "Email",
+    "username": "Username",
+    "usernamePlaceholder": "Username",
+    "password": "Password",
+    "passwordPlaceholder": "Password",
+    "confirmPassword": "Confirm password",
+    "confirmPasswordPlaceholder": "Confirm password",
+    "button": "Create account",
+    "loading": "Creating account...",
+    "passwordMismatch": "Passwords do not match",
+    "success": "Registration successful! Please log in.",
+    "error": "Registration error",
+    "unknownError": "Unknown error"
+  }
+}
